@@ -1,35 +1,79 @@
 # Data-Analytics-Task-4
-# Customer Revenue & Retention Analysis – Statistical Validation
+📊 Customer Churn Statistical Analysis – Task 4
+📌 Project Overview
 
-## Overview
-This repository contains a comprehensive analysis of customer churn patterns across different regions. It includes data cleaning, exploratory data analysis (EDA), dashboard visualization, and statistical validation of key business insights, performed as part of the ApexPlanet Internship Program.
+This project focuses on analyzing customer churn across different regions and validating business insights using statistical testing.
 
----
+The main objective was to determine whether Asia has significantly higher churn compared to other regions using hypothesis testing.
 
-## Repository Structure
+This task includes:
 
-### Task 1 – Data Cleaning
-- `cleaned_data.csv` – cleaned dataset ready for analysis
-- Goal: Ensure accurate and reliable data for analysis.
+Data understanding
 
-### Task 2 – Exploratory Data Analysis (EDA)
-- `eda_analysis.ipynb` or screenshots
-- Summary statistics, visualizations, and initial insights into churn patterns.
+Statistical methodology
 
-### Task 3 – Dashboard
-- Folder: `Dashboard_Screenshots/`
-- Interactive Power BI dashboard screenshots displaying revenue, churn rates, and regional performance.
+Hypothesis testing
 
-### Task 4 – Statistical Validation
-- Folder: `Slide_Images/` – all slides used in final presentation
-- `Final_Presentation.pdf` – combined presentation of Task 4
-- Includes hypothesis formulation, Z-test calculation, statistical interpretation, key insights, and business recommendations.
+Business interpretation
 
----
+Final recommendations
 
-## Key Highlights
+📂 Repository Contents
 
-- Hypothesis Testing: Validated that Asia has significantly higher churn than other regions (p-value < 0.05)
-- KPI Analysis: Churn differences quantified with Z-test
-- Dashboard Insights: Interactive slicers and visualizations for revenue and churn
-- Business Recommendations: Targeted retention strategies proposed for Asia
+Presentation.pdf → Final statistical analysis presentation
+
+Slide images (if uploaded individually)
+
+Previous task outputs (if included)
+
+🧠 Problem Statement
+
+Does the Asia region have significantly higher customer churn compared to other regions?
+
+📊 Statistical Method Used
+
+Two-Proportion Z-Test was used to compare churn rates.
+
+Hypotheses:
+
+H0 (Null Hypothesis): Asia churn rate = Other regions churn rate
+
+H1 (Alternative Hypothesis): Asia churn rate > Other regions churn rate
+
+Significance Level (α) = 0.05
+
+📈 Results Summary
+
+Calculated Z-score exceeded critical value
+
+P-value < 0.05
+
+Null hypothesis rejected
+
+Conclusion: Asia region has significantly higher churn.
+
+💡 Business Insights
+
+Customer retention strategy required in Asia
+
+Focus on service quality & engagement programs
+
+Data-driven decision making improves revenue control
+
+🚀 Skills Demonstrated
+
+Statistical Testing
+
+Hypothesis Formulation
+
+Business Interpretation
+
+Analytical Thinking
+
+Data Storytelling
+
+👩‍💻 Author
+
+Sneha Autade
+B.E. Artificial Intelligence & Data Science
+Datta Meghe College of Engineering
